@@ -8,11 +8,11 @@
 - `cd Scripts`
 - `activate`
 
-####3 - Установить библиотеки командой:
-`pip install -r requirements.txt`
+####3 - В Консоле прейти в папку рут, командой:
+`cd Yellow-News-Site--master`
 
-####4 - В Консоле прейти в папку рут "mysite", командой:
-`cd mysite`
+####4 - Установить библиотеки командой:
+`pip install -r requirements.txt`
 
 ####5 - Запустить сервер, командой:
 `python manage.py`
