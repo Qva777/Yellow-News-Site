@@ -1,16 +1,21 @@
 #Шаги установки: 
 
 ####1 - Подключить venv командой: 
-` python -m venv venv`
+`python -m venv venv`
 
-####2 - Установить библиотеки командой:
+####2 - Активировать его, командой:
+- `cd venv`
+- `cd Scripts`
+- `activate`
+
+####3 - В Консоле прейти в папку рут, командой:
+`cd Yellow-News-Site--master`
+
+####4 - Установить библиотеки командой:
 `pip install -r requirements.txt`
 
-####3 - Активировать его, командой:
-`cd Scripts activate`
+####5 - Выполнить мигрцию, командой:
+`python manage.py migrate`
 
-####4 - В Консоле прейти в папку рут "mysite", командой:
-`cd mysite`
-
-####5 - Запустить сервер, командой:
-`python manage.py`
+####6 - Запустить сервер, командой:
+`python manage.py runserver`
