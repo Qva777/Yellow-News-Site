@@ -10,8 +10,6 @@ class Articles(models.Model):
     is_published = models.BooleanField(verbose_name='Опубликовано', default=True)
     views = models.IntegerField(default=0)
 
-
-
     def __str__(self):
         return self.title
 
