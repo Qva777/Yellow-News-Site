@@ -5,7 +5,7 @@ from django.forms import ModelForm, TextInput, DateTimeInput, Textarea
 class ArticlesForm(ModelForm):
     class Meta:
         model = Articles
-        fields = ['title', 'anons', 'content', 'date']
+        fields = ['title', 'anons', 'content', 'date', 'views']
 
         widgets = {
             'title': TextInput(attrs={
@@ -26,4 +26,5 @@ class ArticlesForm(ModelForm):
                 'type': 'datetime-local',
 
             }),
+
         }

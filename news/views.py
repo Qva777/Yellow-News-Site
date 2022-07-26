@@ -17,6 +17,7 @@ class NewsDetailView(DetailView):
     context_object_name = 'article'
 
 
+
 class NewsUpdate(UpdateView):
     model = Articles
     template_name = 'news/create.html'
@@ -49,4 +50,3 @@ def create(request):
         'form': form,
     }
     return render(request, 'news/create.html', data)
-
