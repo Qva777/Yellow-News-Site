@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title%}Bereza about{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>{{ title }}</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi dolore dolores ducimus ipsa magnam, molestias perferendis quis repellendus vel!</p>
+    <a class="btn btn-warning" href="{% url 'home' %}">На страницу home</a>
+</div>
+{% endblock %}

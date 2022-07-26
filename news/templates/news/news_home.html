@@ -1,0 +1,36 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title%}Bereza news{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Test page</h1>
+    {% if page_obj %}
+        {% for item in page_obj %}
+        {{ contact.full_name|upper }}<br>
+        <div class="alert alert-warning">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.anons }}</p>
+            <a href="{% url 'news-detail' item.id %}" class="btn btn-warning">Детальнее</a>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>У вас нет записей!</p>
+    {% endif %}
+</div>
+
+<div class="pagination2">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-warning"><</a>
+        {% endif %}
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+        </span>
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-warning">></a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}

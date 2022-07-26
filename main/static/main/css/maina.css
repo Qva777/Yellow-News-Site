@@ -1,0 +1,103 @@
+body {
+    background: #2c2c2c;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+div.input-group {
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: darkcyan;
+    transform: scale(1.05);
+    transition: transhorm .6s ease;
+}
+
+aside i {
+    text-decoration: none;
+    color: red;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 170vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+aside .logo {
+    color: #d1faff;
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    left: +15px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 29px;
+}
+
+aside ul {
+    list-style: none
+}
+
+main .features {
+    color: aliceblue;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {
+    font-size: 50px;
+}
+
+main .features p {
+    text-align: justify;
+    margin-left: +40px
+}
+
+/*{max-width: 400px; margin: 20px auto}*/
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+div.pagination2{
+    /*float: left;*/
+    clear: both;
+    color: white;
+    margin: 20px 34%;
+    text-align: center;
+}

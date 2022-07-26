@@ -1,0 +1,14 @@
+<!--Главная страница-->
+{% extends 'main/layout.html' %}
+
+{% block title%}Bereza index{% endblock %}
+{% block content %}
+
+<div class="features">
+    <h1> Главная страница </h1>
+
+<!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi dolore dolores ducimus ipsa magnam, molestias-->
+<!--        perferendis quis repellendus vel!</p>-->
+<a class="btn btn-warning" href="{% url 'about' %}">На страницу про нас</a>
+</div>
+{% endblock %}
