@@ -4,9 +4,9 @@
 ` python -m venv venv`
 
 ####2 - Активировать его, командой:
--`cd venv`
--`cd Scripts`
--`activate`
+- `cd venv`
+- `cd Scripts`
+- `activate`
 
 ####3 - Установить библиотеки командой:
 `pip install -r requirements.txt`
