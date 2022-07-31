@@ -7,9 +7,11 @@
 <div class="features">
     <h1>{{ article.title }}</h1>
 
+    <img src="{{ article.photo.url }}" width="150px">
     <p>{{ article.date }}</p>
     <p>{{ article.content }}</p>
     <p>Просмотров: {{ article.views }}</p>
+
     <a href="{% url 'news-update' article.id %}" class="btn btn-warning">Изменить</a>
     <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Удалить</a>
 
