@@ -1,6 +1,6 @@
-<h1>👋How to install: </h1>
+<details><summary>v<h1>👋How to install: </h1></summary><br>
 
-<details><summary><h4>1 - Connect venv:</h4></summary><br>
+<h4>1 - Connect venv:</h4>
 <pre>python -m venv venv</pre>
 <h4>2 - Activate it:</h4> 
 <pre>.\venv\Scripts\activate</pre>
