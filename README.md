@@ -1,6 +1,6 @@
 <h1>👋How to install: </h1>
 
-<h4>1 - Connect venv:</h4> 
+<details><summary><h4>1 - Connect venv:</h4></summary><br>
 <pre>python -m venv venv</pre>
 <h4>2 - Activate it:</h4> 
 <pre>.\venv\Scripts\activate</pre>
@@ -11,4 +11,4 @@
 <h4>5 - Apply migration:</h4> 
 <pre>python manage.py migrate</pre>
 <h4>6 - Run server:</h4> 
-<pre>python manage.py runserver</pre>
+<pre>python manage.py runserver</pre></details>
