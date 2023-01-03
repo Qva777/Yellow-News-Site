@@ -1,17 +1,14 @@
 <h1>👋How to install: </h1>
+
 <h4>1 - Connect venv:</h4> 
-<i>python -m venv venv</i>
+<pre>python -m venv venv</pre>
 <h4>2 - Activate it:</h4> 
-<ul>
-  <li>cd venv</li>
-  <li>cd Scripts</li>
-  <li>activate</li>
-</ul>
+<pre>.\venv\Scripts\activate</pre>
 <h4>3 - In the Console, go to the root folder:</h4>
-<i>cd ../..</i>
+<pre>cd ../..</pre>
 <h4>4 - Install libraries:</h4>
-<i>pip install -r requirements.txt</i>
+<pre>pip install -r requirements.txt</pre>
 <h4>5 - Apply migration:</h4> 
-<i>python manage.py migrate</i>
+<pre>python manage.py migrate</pre>
 <h4>6 - Run server:</h4> 
-<i>python manage.py runserver</i>
+<pre>python manage.py runserver</pre>
