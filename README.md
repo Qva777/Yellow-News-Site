@@ -1,4 +1,4 @@
-<details><summary>v<h1>👋How to install: </h1></summary><br>
+<details><summary><h1>👋How to install: </h1></summary><br>
 
 <h4>1 - Connect venv:</h4>
 <pre>python -m venv venv</pre>
